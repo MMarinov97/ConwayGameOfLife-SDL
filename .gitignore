@@ -37,3 +37,4 @@
 *.user
 /x64/Debug
 *.sln
+/ConwayGameOfLife-SDL/x64/Release

@@ -13,7 +13,6 @@ class Engine {
 
     SDL_Window* window;
     SDL_Renderer* renderer;
-    SDL_bool done;
     std::vector<SDL_FPoint> points;
     std::vector<SDL_Color> colors;
     SDL_Event event;
