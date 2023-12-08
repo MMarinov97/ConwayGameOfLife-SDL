@@ -6,4 +6,4 @@ This is just a demo showing how to draw simple 2D graphics using SDL2.
   <img width="400" height="400" src="https://i.imgur.com/s2SkU8I.gif">
 </p>
 
-This is the first implementation of a simple 2D graphics engine (engine.h) that is still in development.
+It uses the first version of a simple 2D graphics engine (engine.h) that is still in development.
