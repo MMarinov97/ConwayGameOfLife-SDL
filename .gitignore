@@ -30,3 +30,10 @@
 *.exe
 *.out
 *.app
+/.vs/ConwayGameOfLife-SDL
+/ConwayGameOfLife-SDL/x64/Debug
+*.vcxproj
+*.filters
+*.user
+/x64/Debug
+*.sln
