@@ -18,10 +18,10 @@ class Engine {
     std::vector<SDL_Color> colors;
     SDL_Event event;
 public:
-    Engine()
+    Engine(int h, int w)
     {
         SDL_Init(SDL_INIT_VIDEO);
-        SDL_CreateWindowAndRenderer(640 * 4, 480 * 4, SDL_WINDOW_ALLOW_HIGHDPI, &window, &renderer);
+        SDL_CreateWindowAndRenderer(w * 4, h * 4, SDL_WINDOW_ALLOW_HIGHDPI, &window, &renderer);
         SDL_RenderSetScale(renderer, 4, 4);
     }
 
@@ -33,6 +33,7 @@ public:
     void clearpixels()
     {
         points.clear();
+        colors.clear();
     }
 
     void update()
@@ -45,8 +46,6 @@ public:
             SDL_SetRenderDrawColor(renderer, colors[i].r, colors[i].g, colors[i].b, colors[i].a);
             SDL_RenderDrawPointF(renderer, points[i].x, points[i].y);
         }
-
-
         SDL_RenderPresent(renderer);
     }
     void input() {
