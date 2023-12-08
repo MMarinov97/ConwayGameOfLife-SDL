@@ -70,7 +70,6 @@ int main(int argc, char **argv) {
 				}
 			}
 		}
-		// Copy swap to display for next gen
 		// Copy elements from swap to display for next generation
 		for (int i = 0; i < GAME_WIDTH; i++) {
 			for (int j = 0; j < GAME_HEIGHT; j++) {
