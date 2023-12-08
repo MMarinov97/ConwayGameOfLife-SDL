@@ -1,4 +1,4 @@
-# ConwayGameOfLife-SDL
+# The Game Of Life & SDL2
 
 Implementation of [Conway's Game of Life](https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life) in C++ using the [SDL2](https://www.libsdl.org/) development library.
 This is just a demo showing how to draw simple 2D graphics using SDL2.
