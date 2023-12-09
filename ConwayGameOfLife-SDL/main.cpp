@@ -7,7 +7,7 @@
 const int GAME_WIDTH = 200;
 const int GAME_HEIGHT = 200;
 
-bool isAlive(const std::vector<std::vector<bool>>& game, int x, int y) {
+static bool isAlive(const std::vector<std::vector<bool>>& game, int x, int y) {
 	int alive = 0;
 
 	// Check left
